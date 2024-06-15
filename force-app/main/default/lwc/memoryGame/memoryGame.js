@@ -64,7 +64,7 @@ export default class MemoryGame extends LightningElement {
             setTimeout(()=>{
                 this.openedCards[0].classList.remove("show", "open", "unmatched")
                 this.openedCards[1].classList.remove("show", "open", "unmatched")
-                this.action('DISABLE')
+                this.action('ENABLE')
                 this.openedCards=[]
             }, 1100)
         }
